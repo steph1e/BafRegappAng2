@@ -6,6 +6,4 @@ import { MemberComponent } from './components/members/member.component';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title = 'app works!';
-}
+export class AppComponent { }

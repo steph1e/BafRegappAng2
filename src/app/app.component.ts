@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { MemberComponent } from './components/members/member.component';
+import { MembersComponent } from './components/members/members.component';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  templateUrl: 'app.component.html',
+  styleUrls: ['app.component.css']
 })
 export class AppComponent { }

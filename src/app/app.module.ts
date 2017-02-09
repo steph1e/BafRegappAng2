@@ -5,10 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
+import { MembersComponent } from './components/members/members.component';
+
 @NgModule({
   declarations: [
-    AppComponent
-  ],
+    AppComponent,
+    MembersComponent,
+     ],
   imports: [
     BrowserModule,
     FormsModule,

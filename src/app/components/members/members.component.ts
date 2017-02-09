@@ -13,7 +13,7 @@ members = [ {
     {
       id:32,
       name: "Stephania",
-      suname: "Bontsi"
+      surname: "Bontsi"
     },
     {
       id: 54,

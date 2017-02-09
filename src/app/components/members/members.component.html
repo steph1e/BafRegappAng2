@@ -3,7 +3,7 @@
     <fieldset>
       <legend>Members</legend>
       <ul >
-        <li ng-repeat="member in members"></li>
+        <li *ngFor="let member of members" > {{members.name}} </li>
       </ul>
     </fieldset>
     

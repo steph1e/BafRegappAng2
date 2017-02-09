@@ -9,16 +9,20 @@ export class MembersComponent implements OnInit {
 members = [ {
     id:23,
     name: "Wesley",
-    surname: "V Rooyen"},
+    surname: "V Rooyen",
+    age:23
+  },
     {
       id:32,
       name: "Stephania",
-      surname: "Bontsi"
+      surname: "Bontsi",
+      age:26
     },
     {
       id: 54,
       name: "Benita",
-      surname: "George"
+      surname: "George",
+      age:45
     }];
    
 

@@ -3,6 +3,7 @@ import { MembersComponent } from './components/members/members.component';
 import { MembersService } from './members.service';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
+import { Member } from './member';
 
 @Component({
   selector: 'app-root',

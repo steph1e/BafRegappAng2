@@ -1,5 +1,9 @@
 <h1>
   
 </h1>
-<app-navbar></app-navbar>
-<app-members></app-members>
+<nav>
+    <a routerLink="/members" routerLinkActive="active">Members</a>
+    <a routerLink="/add-member" routerLinkActive="active">New Member</a>
+</nav>
+
+<router-outlet></router-outlet>

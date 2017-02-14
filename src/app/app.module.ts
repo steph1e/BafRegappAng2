@@ -6,18 +6,21 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 
 import { MembersComponent } from './components/members/members.component';
+import { MembersService } from './members.service';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MembersComponent,
+    NavbarComponent,
      ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [MembersService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

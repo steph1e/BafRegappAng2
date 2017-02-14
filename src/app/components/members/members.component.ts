@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-
+import { MembersService } from  './app/members.service';
 @Component({
   selector: 'app-members',
   templateUrl: './members.component.html',
-  styleUrls: ['./members.component.css']
+  styleUrls: ['./members.component.css'],
+  providers: [MembersService]
 })
 export class MembersComponent implements OnInit {
 members = [ {

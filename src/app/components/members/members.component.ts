@@ -11,7 +11,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MembersComponent implements OnInit {
 
-
+id: number;
+name:string;
   constructor() {
 
    }

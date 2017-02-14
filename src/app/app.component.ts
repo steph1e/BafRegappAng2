@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import { MembersComponent } from './components/members/members.component';
-import { MembersService } from './members.service'
-import { NavbarComponent } from './components/navbar/navbar.component'
+import { MembersService } from './members.service';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { HomeComponent } from './components/home/home.component';
 
 @Component({
   selector: 'app-root',

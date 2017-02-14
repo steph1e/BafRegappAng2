@@ -33,6 +33,6 @@ export class MembersComponent implements OnInit {
   }
   delete(id){
      this.membersService.delete(id);
-     alert('The user ' + id + ' has been successfully delete')
+    
   }
 }

@@ -8,14 +8,16 @@ import { RouterModule, Routes } from '@angular/router';
 import { MembersComponent } from './components/members/members.component';
 import { MembersService } from './members.service';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { HomeComponent } from './components/home/home.component';
+
 import { AddMemberComponent } from './components/add-member/add-member.component';
 import { DatePickerModule } from 'ng2-datepicker';
+import { MemberDetailsComponent } from './components/member-details/member-details.component';
 
 
 const appRoutes: Routes = [
   { path: 'members', component: MembersComponent },
   { path: 'add-member', component: AddMemberComponent },
+  { path: 'member-details', component: MemberDetailsComponent },
 ];
 
 
@@ -24,8 +26,9 @@ const appRoutes: Routes = [
     AppComponent,
     MembersComponent,
     NavbarComponent,
-    HomeComponent,
+  
     AddMemberComponent,
+    MemberDetailsComponent,
      ],
   imports: [
     BrowserModule,

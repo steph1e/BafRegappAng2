@@ -1,9 +1,21 @@
-<h1>
-  
-</h1>
-<nav>
+<h1></h1>
+
+ <nav class="navbar  navbar-inverse">
+  <div class="container">
+    <div class="navbar-header">
+        <ul class="nav navbar-nav">
+            <li class="active">
     <a routerLink="/members" routerLinkActive="active">Members</a>
+            </li>
+            <li>
     <a routerLink="/add-member" routerLinkActive="active">New Member</a>
+            </li>
+            <li>
+    <a routerLink="/member-details" routerLinkActive="active">Member Details</a>
+            </li>
+        </ul>
+    </div>
+  </div>
 </nav>
 
 <router-outlet></router-outlet>

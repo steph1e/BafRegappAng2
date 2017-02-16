@@ -1,6 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { MembersService } from '../../members.service';
-import { Member} from '../../member'
+import { Member} from '../../member';
+import { ActivatedRoute } from '@angular/router';
+
+
 
 @Component({
   selector: 'app-member-details',
@@ -9,13 +12,11 @@ import { Member} from '../../member'
 })
 export class MemberDetailsComponent implements OnInit {
 
-
- private sub:any;
-  private member:string[];
-
-  constructor(private meberService: MembersService, private route: ActivatedRoute) { }
+ 
+  constructor() { }
 
   ngOnInit() {
+      
   }
 
 }

@@ -17,8 +17,8 @@
     </tr>
   </thead>
   <tbody>
-    <tr *ngFor="let member of members"
-  >
+    <tr *ngFor="let member of members" >
+      
       <td><a [routerLink]="['/members', member.id]">{{member.id}}</a></td>
       <td>{{member.name}}</td>
       <td>{{member.surname}}</td>

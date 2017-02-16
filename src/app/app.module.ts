@@ -15,6 +15,7 @@ import { MemberDetailsComponent } from './components/member-details/member-detai
 import { routing } from './app.routes';
 import { Member } from './member';
 
+
 const appRoutes: Routes = [
   { path: 'members', component: MembersComponent },
   { path: 'add-member', component: AddMemberComponent },

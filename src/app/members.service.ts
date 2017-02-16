@@ -2,18 +2,17 @@ import { MEMBERS } from './mock-members';
 import { MembersComponent } from './components/members/members.component';
 import { Injectable } from '@angular/core';
 import { Member } from './member';
+import { Jsonp, URLSearchParams } from '@angular/http';
+import { MemberDetailsComponent } from './components/member-details/member-details.component'
 
 @Injectable()
 export class MembersService {
-
-  findMemberById(id: string) {
-    const endPoint = 'member.get'
-    params.set('id', id);
-  }
- 
 getMember(): Promise<Member[]> {
     return Promise.resolve(MEMBERS);
   }
+
+
+
 delete(id): Promise<Member>{
    for(let i = 0; i < MEMBERS.length; i++) {
      if(MEMBERS[i].id == id){

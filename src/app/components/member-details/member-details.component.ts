@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MembersService } from '../../members.service';
 import { Member} from '../../member';
-import { ActivatedRoute } from '@angular/router';
+
 
 
 

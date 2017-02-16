@@ -12,6 +12,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { AddMemberComponent } from './components/add-member/add-member.component';
 import { DatePickerModule } from 'ng2-datepicker';
 import { MemberDetailsComponent } from './components/member-details/member-details.component';
+import { routing } from './app.routes';
 
 
 const appRoutes: Routes = [

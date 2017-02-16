@@ -27,6 +27,10 @@
     "ts-helpers": "^1.1.1",
     "zone.js": "^0.7.2"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/steph1e/BafRegappAng2.git"
+  },
   "devDependencies": {
     "@angular/compiler-cli": "^2.3.1",
     "@types/jasmine": "2.5.38",
@@ -45,4 +49,5 @@
     "tslint": "^4.3.0",
     "typescript": "~2.0.3"
   }
+
 }

@@ -13,7 +13,7 @@ import { AddMemberComponent } from './components/add-member/add-member.component
 import { DatePickerModule } from 'ng2-datepicker';
 import { MemberDetailsComponent } from './components/member-details/member-details.component';
 import { routing } from './app.routes';
-
+import { Member } from './member';
 
 const appRoutes: Routes = [
   { path: 'members', component: MembersComponent },
@@ -35,7 +35,8 @@ const appRoutes: Routes = [
     BrowserModule,
     FormsModule,
     HttpModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    routing
   ],
   providers: [MembersService],
   bootstrap: [AppComponent]

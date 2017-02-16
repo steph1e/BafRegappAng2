@@ -27,12 +27,7 @@ export class MembersComponent implements OnInit {
     this.getMember();
     console.log('get member');
   }
-  onSelect(member: Member): void {
-    this.selectedMember = member;
-  }
-  editData() {
-   
-  }
+  
   delete(id){
      this.membersService.delete(id);
     

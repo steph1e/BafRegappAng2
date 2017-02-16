@@ -12,6 +12,7 @@ import { Member} from '../../member';
 })
 export class MemberDetailsComponent implements OnInit {
 
+
  
   constructor() { }
 

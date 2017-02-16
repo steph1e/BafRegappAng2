@@ -8,7 +8,10 @@ import { Member} from '../../member'
   styleUrls: ['./member-details.component.css']
 })
 export class MemberDetailsComponent implements OnInit {
-
+selectedMember: Member;
+onSelect(member: Member): void {
+  this.selectedMember = member;
+}
   constructor() { }
 
   ngOnInit() {

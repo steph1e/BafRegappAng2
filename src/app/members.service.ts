@@ -5,6 +5,11 @@ import { Member } from './member';
 
 @Injectable()
 export class MembersService {
+
+  findMemberById(id: string) {
+    const endPoint = 'member.get'
+    params.set('id', id);
+  }
  
 getMember(): Promise<Member[]> {
     return Promise.resolve(MEMBERS);

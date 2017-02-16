@@ -9,7 +9,11 @@ import { Member} from '../../member'
 })
 export class MemberDetailsComponent implements OnInit {
 
-  constructor() { }
+
+ private sub:any;
+  private member:string[];
+
+  constructor(private meberService: MembersService, private route: ActivatedRoute) { }
 
   ngOnInit() {
   }

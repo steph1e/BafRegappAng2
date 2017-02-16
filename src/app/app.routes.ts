@@ -7,13 +7,13 @@ import { Routes, RouterModule } from '@angular/router';
 
 // Route Configuration
 export const routes: Routes = [
-    {
+  /*  {
     path: '',
     component: AppComponent
   },
   { path: 'members', component: MembersComponent},
-  { path: 'member-details', component: MemberDetailsComponent }
+  { path: 'member-details', component: MemberDetailsComponent }*/
 ];
 
 
-export const routing: ModuleWithProviders = RouterModule.forRoot(routes);
+//export const routing: ModuleWithProviders = RouterModule.forRoot(routes);

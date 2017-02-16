@@ -14,7 +14,7 @@ import { Member } from '../../member';
 })
 export class MembersComponent implements OnInit {
 
-  title = 'List of Members';
+  title = '';
   members: Member[];
   selectedMember: Member;
   constructor(private membersService: MembersService) { }
